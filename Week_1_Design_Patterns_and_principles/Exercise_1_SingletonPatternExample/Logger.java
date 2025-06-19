@@ -1,3 +1,4 @@
+package Exercise_1_SingletonPatternExample;
 public class Logger{
 
     private static Logger instance;
