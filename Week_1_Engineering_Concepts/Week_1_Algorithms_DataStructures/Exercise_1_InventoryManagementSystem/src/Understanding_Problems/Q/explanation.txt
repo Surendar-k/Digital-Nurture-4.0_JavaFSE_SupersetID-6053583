@@ -1,0 +1,15 @@
+1. ) Understand the Problem:
+Explain why data structures and algorithms are essential in handling large inventories.
+Discuss the types of data structures suitable for this problem.
+
+i) 
+Efficiency: In large inventories, operations like searching, updating, or deleting products must be fast. Poor data structure choices can lead to high time complexity and degraded performance.
+Scalability: Proper data structures ensure the system remains efficient as the inventory grows.
+Maintainability: Clear algorithms and well-chosen structures reduce bugs and improve code readability and maintenance.
+
+
+ii)
+ArrayList: Good for ordered data and iteration. Slower search/update/delete by productId.
+HashMap (recommended): Key-value mapping, ideal for quick access by productId. Operations (add, update, delete) generally in O(1) time.
+TreeMap: Maintains sorted order of keys but slower (O(log n)) operations.
+
