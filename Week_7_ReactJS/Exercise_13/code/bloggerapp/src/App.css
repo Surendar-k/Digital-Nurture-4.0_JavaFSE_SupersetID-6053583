@@ -1,0 +1,35 @@
+/* src/App.css */
+.App {
+  font-family: sans-serif;
+  padding: 20px;
+  text-align: left;
+}
+
+.btn-group {
+  margin-bottom: 20px;
+}
+
+.btn-group button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #ddd;
+  border: none;
+  border-radius: 5px;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+  border-left: 4px solid green;
+}
+
+.column:first-child {
+  border-left: none;
+}
